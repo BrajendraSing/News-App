@@ -1,0 +1,1 @@
+This React is a Basic News App created using the newsapp api and in the main page with load more posts options
