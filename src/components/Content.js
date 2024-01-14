@@ -14,7 +14,7 @@ function Content(props) {
 
   const searchRef = useRef(null);
   const [query, setQuery] = useState('tesla');
-  const apiKey = "";
+  const apiKey = "f9ef95604f2940e2b4ffb0f359f3fc90";
   const apiUrl = `https://newsapi.org/v2/everything?q=${query}&from=2023-12-13&sortBy=publishedAt&apiKey=${apiKey}`;
 
   async function fetchData() {
