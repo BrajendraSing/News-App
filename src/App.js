@@ -11,7 +11,7 @@ function App() {
   }
   return (
     <>
-      <Header handleCategory={handleCategory} / >
+      <Header handleCategory={handleCategory} category={category} / >
       <Content category={category} />
     </>
   );
